@@ -1,0 +1,54 @@
+<% if (!isLogged){ %>
+
+<div>
+    <div>
+        <div>
+            <ul class="Layout">
+                <li class ="Layoutli"><a href="/"><b>Home</b></a></li>
+                <!-- <li class ="Layoutli"><a href="/employee">Konto erstellen</a></li> -->
+
+                <li class ="Layoutli"><a href="/employee/login" id = "login">Login</a> </li>
+
+                </li>
+            </ul>
+            <div class="underbar"></div>
+        </div>
+        <div>
+        </div>
+    </div>
+</div>
+<% } else { %>
+
+
+
+    
+  <div>
+      <nav>
+    <ul class="Layout">
+        <li class="Layoutli">
+        <a class="navbar-brand" href="/board">
+            <span class="glyphicon glyphicon-home"></span> Hotel Management Board
+        </a>
+        </li>
+      <li class="Layoutli">
+        <a class="" href="/guest/list">Neue Reservation</a>
+      </li>
+      <li class="Layoutli">
+        <a class="" href="/room/list">Rooms</a>
+      </li>
+        <% if (employee.isAdmin === 1) { %>
+      <li class="Layoutli">
+        <a class="" href="/employee/list">Employees</a>
+      </li>
+        <% } %>
+      <li class="Layoutli">
+        <a class="nav-link" href="/employee/<%=employee.id%>/detail">Profile</a>
+      </li>
+        <li class="Layoutli">
+            <a class="Logout" href="/logout">log out</a>
+        </li>
+    </ul>
+      </nav>
+  </div>
+
+<% } %>

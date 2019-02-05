@@ -1,0 +1,420 @@
+/* Css Index Datei
+
+Name: Iliass Hilmi
+Immatrikulation Nummer : 672515
+Projekt: CSA
+Rolle: Client Seitige
+
+*/
+
+body{
+  background-color: #E1E7E2;
+}
+
+
+
+
+
+/*Menu */
+
+nav {
+
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+
+
+}
+.Layout {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+
+}
+
+.Layoutli {
+  float:left;
+}
+
+.Layoutli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+.Layoutli a:hover:not(.active) {
+  background-image: linear-gradient(to right, rgba(200,0,0,0), rgb(21, 40, 255));
+  text-decoration: none;
+  color:white;
+
+
+
+}
+
+
+/*  Sections */
+.SecGlobal {
+  padding: 1em;
+
+  background-color : white;
+  height : auto;
+  width : 80%;
+  border : 1px black solid;
+  display: block;
+  margin: 5em auto;
+  text-align: center;
+
+
+
+}
+.SecMin {
+  padding: 1em;
+  background-color : white;
+  height : auto;
+  width : 60%;
+  border : 1px black solid;
+  text-align: center;
+  display: block;
+  margin: 5em auto;
+}
+
+.SecLog {
+  padding: 1em;
+
+  background-color : white;
+  height : auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px grey;
+  width : 40%;
+  border : 0px black solid;
+  text-align: center;
+  display: block;
+  margin: 5em auto;
+}
+
+#SecGlobal_login {
+  padding: 1em;
+  position : Relative;
+  background-color : white;
+  height : auto;
+  width : 600px;
+  border : 1px black solid;
+  margin: 2em auto auto auto
+}
+
+
+#Sec{
+  position: absolute;
+  top : 130px;
+  left:180px;
+}
+
+/* Text Eingaben */
+.textbox {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.Eingabe{
+  position: relative;
+  right:100px;
+}
+
+#BtnRegistrieren{
+  position: absolute;
+  border: none;
+  left: 8em;
+  padding: 15px 90px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#BtnEinloggen {
+  position: relative;
+  left: 8em;
+  border: none;
+  padding: 15px 108px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+#anmeldung{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Menu */
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+
+/* Buttons */
+.btn-edit{
+
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration : none;
+}
+
+.btn-del{
+
+  width: 100px;
+  height: 40px;
+  background: #f90000;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-res{
+
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  background: #1ed214;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration : none;
+}
+.form-del{
+  display: inline;
+
+}
+.btn-add{
+
+   width: 80px;
+   height: 20px;
+   background: rgba(2, 0, 1, 0.65);
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   text-decoration : none;
+
+
+ }
+
+.btn-Glob{
+
+  width: 60%;
+  height: 50px;
+  background: #3774d6;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration : none;
+
+
+}
+
+.Logout{
+  position: absolute;
+  display: block;
+  padding: 10px;
+  left: 76em;
+  width: 90px;
+  height: 40px;
+  background: #f90000;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration : none;
+}
+
+.Logout:hover{
+  background-color: #ff4804;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #c1c1c1;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #e2e2e2
+}
+
+
+img-profile img {
+
+  display: block;
+  margin: 0 auto;
+
+}
+/* For mobile phones: */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .Layoutli {
+    float:none;
+  }
+  .SecGlobal{
+
+    display: block;
+    margin: 2em auto;
+    margin-top: 15em;
+  }
+  .SecMin{
+
+    margin-left: 1em;
+    display: block;
+    margin: 2em auto;
+    margin-top: 15em;
+
+  }
+
+  .footer-container div {
+    display: flow;
+
+  }
+
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+/* footer */
+
+footer{
+
+
+  background: rgba(0, 0, 0, 0.6);
+  color:white;
+
+}
+.CopyR{
+  text-align: center;
+}
+
+.footer-container {
+
+  height: 100%;
+  width:100%;
+  font-size:0;
+  text-align: center;
+}
+
+.footer-container div {
+  margin: 1em;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 20px;
+  color:black;
+
+}
+.footer-container img {
+
+  display: block;
+  margin: 0 auto;
+}
+.footer-container div:hover img {
+  opacity: 0.6;
+}
+
+.footer-container table {
+
+  border:0;
+  background-color: #c1c1c1;
+  border-radius: 25px;
+
+}
+
+.footer-container  td {
+  text-align: center;
+
+}
+
+.div1 {
+
+  width: 25%;
+}
+
+.div2 {
+  width: 25%;
+
+}
+
+.txt-bold{
+
+  text-align: Center;
+  font-size: 30px;
+
+}

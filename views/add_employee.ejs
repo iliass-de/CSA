@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+<% include ./partials/header %>
+
+<center>
+
+    <section class="SecMin">
+        <form action="/employee/create" method="post" data-toggle="validator" role="form">
+
+            <p id="anmeldung">Add new employee</p>
+            <p>Füllen Sie sich bitte den Formular aus.</p>
+            <hr />
+
+            <% if (error){ %>
+                <p style="color: red;"><%= error %></p>
+                <hr/>
+            <% } %>
+
+            <% include ./partials/employee_input %>
+
+            <% include ./partials/password_input %>
+
+            <hr />
+            <input  class="btn-Glob" type="submit" value="Bestätigen" />
+        </form>
+    </section>
+
+</center>
+
+<% include ./partials/footer %>
+</body>
+
+</html>

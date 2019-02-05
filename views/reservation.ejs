@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./partials/head %>
+</head>
+<body>
+<% include ./partials/header.ejs %>
+
+<center>
+
+    <section class = "SecGlobal">
+        <form action="/reserve/create/<%= guest.id %>" method="post" data-toggle="validator" role="form">
+        <p>Room reservation</p>
+
+        <table >
+            <tbody>
+            <tr>
+                <td>Name:</td>
+                <td><%= guest.first_name %>, <%= guest.last_name %></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><a href="mailto:<%= guest.email %>"><%= guest.email %></a></td>
+            </tr>
+            <td>Phone Number</td>
+            <td><%= guest.phone %>
+            </td>
+
+            </tr>
+
+            </tbody>
+        </table>
+
+        <select class="form-control" name="room_id" id="roomType">
+            <option></option>
+            <% for (var i=0;i<rooms.length;i++){ %>
+                <option value="<%= rooms[i].id %>"><%= rooms[i].room_type %> : <%= rooms[i].room_number %></option>
+            <% } %>
+
+        </select>
+
+            <hr />
+            <input id="submitbtn" name="submitbtn" class="btn-edit" type="submit" value="Reserve" />
+        </form>
+    </section>
+</center>
+
+<% include ./partials/footer %>
+</body>
+</html>
