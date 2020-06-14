@@ -21,13 +21,12 @@ Tools:
 4. Javascript ES6
 5. EJS Template
 6. Postman<br>
-Die Oberfäsche basiert auf eine HTML/CSS schnittstelle und werden 
-einige Schnittstellen von Bootstrap Bibliothek unterstützt.
-Die Anwendung wird für Desktop und Mobile geeignet und besteht aus Zwei wesentlichen Hauptteilen:
+Die GUI wird durch HTML/CSS und Bootstrap implementiert. Hiermit
+wird die Anwendung für Desktop und Mobile geeignet und  aus zwei wesentlichen Hauptteilen bestehen:
 * ##### Login System:
- Hier werden 2 Seiten erstellt, eine Homepage, die eine Kurze Beschreibung für die App ausgibt und eine Log-In Seite.
+ 
 * ##### Buchung System:
-Nach einer Erfolgreichen Einloggen, stehen einige Seiten und funktionen für die Benutzer zu verfügung
+Nach einer Erfolgreichen Einloggen, stehen einige Seiten und Funktionen für den Anwender zu verfügung
 *   Navigation Menu: eine einfache und einheitliche Struktur für die Navigation Menu
 *   Board Page: hier wird ein Ansicht gezeigt, wo steht Informationen über die reservierte Zimmern und deren Kunden.
 *   Der Benutzer hat die Möglichkeit der Verwaltung von Zimmern Z.B Einfügung von einenm neuen Zimmer mit einigen Attributen (Zimmer Type, Zimmer Nummer)
