@@ -11,7 +11,8 @@ inf2645@hs-worms.de<br>
 ## Abstract
 Hotel Management System ist eine Web Client/Server-Seitige Anwendung läuft unter NodeJs Umgebung.<br>
 Diese Anwendung wird sehr geeignet für die Verwaltung von kleine Hostel, Gast Haus, Appartement und Pensionen.
-Es verfügt über eine benutzerfreundliche schnittstelle, wobei  Buchungsoperationen verwaltet werden können.
+Es verfügt über eine benutzerfreundliche schnittstelle, wobei  Buchungsoperationen verwaltet werden können.  
+
 ## Abstract Frontend
 Veratwortlicher: Iliass Hilmi<br>
 Tools:
