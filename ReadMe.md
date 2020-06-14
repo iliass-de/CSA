@@ -4,19 +4,14 @@
 ######Gruppe 10
 Iliass Hilmi<br>
 inf2766@hs-worms.de<br>
-Matrikelnummer: 672515<br><br>
 Oulid Elbakkari<br>
-inf2645@hs-worms.de<br>Matrikelnummer:671842<br><br>
+inf2645@hs-worms.de<br>
 
 ##Abstract
-Hotel Management System ist eine Web Client/Server Seitige Anwendung läuft unter NodeJs Umgebung.<br>
+Hotel Management System ist eine Web Client/Server-Seitige Anwendung läuft unter NodeJs Umgebung.<br>
 Diese Anwendung wird sehr geeignet für die Verwaltung von kleine Hostel, Gast Haus, Appartement und die Pensionen.
-Es verfügt über eine einfache schnittstelle bzw. Oberfläsche für die Mitarbeiter bzw Nutzer,
-die für Buchung Operationen zugelassen sind. Es handelt sich hier um die Benutzer Management, das heißt der Admin fügt die Nutzern ein und verteilt die rechte um dieses App zu benutzen. Daruber hinaus enthält Hotel Management System die wichtigste Funktionen (Speicherung, Bearbeitung, Löschung und die Einfügung von Daten), die für die Verwaltung der Buchung Operationen notwendig sind und stellt ein einfaches Ansicht dar.
-Aus Sicherheitsansicht bietet diese Anwendung eine sichere Zugang zur Verwaltung der Operationen. 
-Es wird zuerst verlangt, dass der Mitarbeiter sich durch seine Email Adresse und Passwort einloggt. Nach einer erfolgreichen Eingabe von Email und passwort , wird auf die app zugegriffen und damit wird möglich die Buchungsoperationen zu verwalten. Die Passwörte werden verschlüsselt und die Daten von den Benutzern und Kunden werden
-auf ein Datenbank gespeichert und gesichert.
-##Abstract client
+Es verfügt über eine Benutzerfreundliche schnittstelle, wobei Benutzer Buchungsoperationen verwalten können.
+##Abstract Frontend
 Veratwortlicher: Iliass Hilmi<br>
 Tools:
 1. HTML
@@ -104,32 +99,6 @@ Varantwortlicher : Iliass Hilmi
 
 ## Abstract Server
 Verantwortlicher: Oualid EL BAKKARI
-
-
-den server seite ist verantwortlich für Login system wie man sich  einlogen kann,
-Verschlüsslung von Passworter, Erstellung von User Account
-die verbindung mit daten_Bank und überprüfen ob der konto  existiert 
-und ob die eingebebne Daten überreinstimenn mit was im daten bank ist. und ob diese Account ein Admin
-ist wenn ja werden noch zusatzliche Funktionen angezeigt, wie Erstellung löschen bearbeiten von User_Account
-wenn nicht werden nur die standart Funktionen verfügbar, 
-dann die Daten bank verbindung, relation dazwichen, speichern und löschen. Erstellung von APIs Anfrage.
-
-## ORM
-
-die daten Bank besteht aus fünf Tabellen (Geust, Room, Room_Type, Reservation, Employee ) 
-fangen wir mit "Employee" Tablelle an, in dieser Tabelle werden informatinen über Employee gespeichert
-die persönliche User Informationen verschlusselte Passworter und ob dieses User ein Admin ist 
-oder ein normal User
-
-die zweite Tabelle "Guest" da werden Kunden Informationen geschpeichert und die Anzahl 
-des erwachsenen und Kinder, die mit dem Kunde sind, primary Schlussel dafür ist Guest_ID
-und es steht im relation mit "Reservation" Tablle 
-in der "Reservation" Tabelle werden Buchungen informationen geschpeichert Check-in und Check-out Datum
-seine Primary-Key ist Reservation_ID und er hat auch zwei foreign key weil er mit zwei 
-Tabellen im Relation steht  (Guest_ID und Room_ID).
-die vierte Tabelle Room enthalt Room Number seine Primary_Key ist Room_ID und foreign key 
-ist Room_Type_ID und es staht im Retatiom mit Room_Type Tabelle
-in Room_Type Tabelle sind Room Type geschpeichert. 
 
 ## API-Beschreibung
 die APIs  werden in unterschidlichen Datei verteilt je nach  funktionalität Kontext,die API, die für 
