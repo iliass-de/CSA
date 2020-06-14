@@ -1,7 +1,7 @@
 # Projektvorschlag Hotel Management System V 1.0
 ##### Hochschule Worms CSA 151 WS 2018/19
 
-######Gruppe 10
+******Gruppe 10
 Iliass Hilmi<br>
 inf2766@hs-worms.de<br>
 Oulid Elbakkari<br>
@@ -9,8 +9,8 @@ inf2645@hs-worms.de<br>
 
 ##Abstract
 Hotel Management System ist eine Web Client/Server-Seitige Anwendung läuft unter NodeJs Umgebung.<br>
-Diese Anwendung wird sehr geeignet für die Verwaltung von kleine Hostel, Gast Haus, Appartement und die Pensionen.
-Es verfügt über eine Benutzerfreundliche schnittstelle, wobei Benutzer Buchungsoperationen verwalten können.
+Diese Anwendung wird sehr geeignet für die Verwaltung von kleine Hostel, Gast Haus, Appartement und Pensionen.
+Es verfügt über eine benutzerfreundliche schnittstelle, wobei  Buchungsoperationen verwaltet werden können.
 ##Abstract Frontend
 Veratwortlicher: Iliass Hilmi<br>
 Tools:
