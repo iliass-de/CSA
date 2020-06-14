@@ -1,7 +1,8 @@
 # Projektvorschlag Hotel Management System V 1.0
-##### Hochschule Worms CSA 151 WS 2018/19
+##### Hochschule Worms CSA 151 WS 2018/19  
 
-******Gruppe 10
+
+#####Gruppe 10
 Iliass Hilmi<br>
 inf2766@hs-worms.de<br>
 Oulid Elbakkari<br>
@@ -58,8 +59,7 @@ Varantwortlicher : Iliass Hilmi
 | Projekt Spezifikation                |      10        | 
 | Festlegung der Funktionalität        |      5        | 
 | Design spezifikation                 |      5        | 
-| Verfassen des Projektvorschlags      |      6        | 
-| **Summer**                            |     **26**         | 
+| **Summer**                            |     **20**         | 
  
 
 
@@ -236,11 +236,10 @@ Verantwortlicher: Oualid El BAKKARI
 |--------------------------------------------|------------:|
 | - Backend Endpunkte / API - Beschreibung   |   5         |
 | - Daten_Bank                               |   3         |
-| - Verfassen des Projektvorschlags          |   5         |
 | - Login System                             |   5         |
 | - Markdown                                 |   2         |
 |                                            |             |
-| **Summe**                                  |  **20**     |
+| **Summe**                                  |  **15**     |
 
 #### Implementierung und Validierung
 
