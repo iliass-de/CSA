@@ -2,17 +2,17 @@
 ##### Hochschule Worms CSA 151 WS 2018/19  
 
 
-#####Gruppe 10
+##### Gruppe 10
 Iliass Hilmi<br>
 inf2766@hs-worms.de<br>
 Oulid Elbakkari<br>
 inf2645@hs-worms.de<br>
 
-##Abstract
+## Abstract
 Hotel Management System ist eine Web Client/Server-Seitige Anwendung läuft unter NodeJs Umgebung.<br>
 Diese Anwendung wird sehr geeignet für die Verwaltung von kleine Hostel, Gast Haus, Appartement und Pensionen.
 Es verfügt über eine benutzerfreundliche schnittstelle, wobei  Buchungsoperationen verwaltet werden können.
-##Abstract Frontend
+## Abstract Frontend
 Veratwortlicher: Iliass Hilmi<br>
 Tools:
 1. HTML
@@ -24,9 +24,9 @@ Tools:
 Die Oberfäsche basiert auf eine HTML/CSS schnittstelle und werden 
 einige Schnittstellen von Bootstrap Bibliothek unterstützt.
 Die Anwendung wird für Desktop und Mobile geeignet und besteht aus Zwei wesentlichen Hauptteilen:
-* #####Login System:
+* ##### Login System:
  Hier werden 2 Seiten erstellt, eine Homepage, die eine Kurze Beschreibung für die App ausgibt und eine Log-In Seite.
-* #####Buchung System:
+* ##### Buchung System:
 Nach einer Erfolgreichen Einloggen, stehen einige Seiten und funktionen für die Benutzer zu verfügung
 *   Navigation Menu: eine einfache und einheitliche Struktur für die Navigation Menu
 *   Board Page: hier wird ein Ansicht gezeigt, wo steht Informationen über die reservierte Zimmern und deren Kunden.
@@ -37,10 +37,10 @@ Nach einer Erfolgreichen Einloggen, stehen einige Seiten und funktionen für die
 *   Logout Menu: durch ein Click auf Log out, wird den Benutzer ausgeloggt 
 *   Footer: Informationen und Support
 
-#Wireframe
-##Desktop Prototyp
+# Wireframe
+## Desktop Prototyp
 
-####Homepage
+#### Homepage
 
 ![alt text](public/Images/PVorschlag/test.jpg )
 
@@ -50,8 +50,8 @@ Nach einer Erfolgreichen Einloggen, stehen einige Seiten und funktionen für die
 
 
 
-##Aufwandsschätzungen
-####Frontend
+## Aufwandsschätzungen
+#### Frontend
 Varantwortlicher : Iliass Hilmi
 
 | Aufgabe                              | Zeit in Std   | 
@@ -63,7 +63,7 @@ Varantwortlicher : Iliass Hilmi
  
 
 
-####Implementierung
+#### Implementierung
 | Aufgabe                              | Zeit in Std   | 
 | ------------------------------------ |:-------------:| 
 | Entwurf des Design                   |      5        |
@@ -74,7 +74,7 @@ Varantwortlicher : Iliass Hilmi
 | **Summe**                             |      **50**        | 
 
  
-####Dokumentation und Test
+#### Dokumentation und Test
 
 
 | Aufgabe                                    | Zeit in Std |
@@ -168,7 +168,7 @@ Employee zustandig sind, werden im "/routes/employee.js" angelegt, zum Beispiel 
 ***router.post('/:id/update', guest_controller.guest_update_post);***
    - POST zum Guest information zu updaten    
 
-###`GET /reserve`
+### `GET /reserve`
 
 ***router.post('/:id/update', guest_controller.guest_update_post);***
    - GET Anfrage zum Anlegen einer Reserve. Dies muss vor der Route für 
@@ -184,7 +184,7 @@ Employee zustandig sind, werden im "/routes/employee.js" angelegt, zum Beispiel 
    - GET Anfrage um liste alle Bunchung anzuzeigen 
 
 
-###`POST /reserve`
+### `POST /reserve`
 
 ***router.post('/:id/update', guest_controller.guest_update_post);***
    - POST zum Erstellung ein Buchung
@@ -196,7 +196,7 @@ Employee zustandig sind, werden im "/routes/employee.js" angelegt, zum Beispiel 
    - POST zum update ein Buchung
 
 
-###`GET / Room`
+### `GET / Room`
 
 ***router.get('/create', room_controller.room_create_get);***
    - GET Anfrage zum Erstellen von Raum. HINWEIS Dies muss vor der Route für 
@@ -212,7 +212,7 @@ Employee zustandig sind, werden im "/routes/employee.js" angelegt, zum Beispiel 
    - GET Anfrage um eine Liste alle Room anzuzeigen          
 
 
-###`GET / Room`
+### `GET / Room`
 
 ***router.post('/create', room_controller.room_create_post);***
    - POST zum Erstellung ein Riim
