@@ -1,4 +1,4 @@
-# Projektvorschlag Hotel Management System V 1.0
+# Projektvorschlag Hotel Management System V0.0.1
 ##### Hochschule Worms CSA 151 WS 2018/19  
 
 
