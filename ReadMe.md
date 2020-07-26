@@ -11,11 +11,11 @@ Simple online hotel management system for small hotels, inns, guest houses, and 
 
 ## Installation
  
- Führen Sie In der Console die folgende Befehle aus:
- * Befehl1: **`npm install`** 
+After cloning the app run the following commands In the console:
+ * Command1: **`npm install`** 
  
- * Befehl2: ***`npm start`***  
- * Es wird Automtisch den Url und port von dem Default Browser aufgerufen
+ * Command2: ***`npm start`***  
+ * Access the app throw: **`http://localhost:3000`**  
  
  
 ## Demo:
