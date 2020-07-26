@@ -21,9 +21,9 @@ After cloning the app run the following commands In the console:
 ## Demo:
 
 https://hotel-managment-system.herokuapp.com/    
-##### Admin user:
+#### Admin user:
 * Login:  **`admin@hotel.de`** 
 * Password: **`demo`**   
-##### Normal user:
+#### Normal user:
 * Login:  **`muster@hotel.de`** 
 * Password: **`1234`** 
