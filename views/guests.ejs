@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+<% include ./partials/header %>
+
+
+
+    <section class = "SecGlobal">
+        <p class="sub-titel">List of guest</p>
+        <!-- Table -->
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Firstname</th>
+                <th><a href="/guest/create" class ="btn-add" style="float: right;" >Add</a></th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <% for (var i=0; i<guests.length; i++){ %>
+                <tr>
+                    <td><%= guests[i].last_name %></td>
+                    <td><%= guests[i].first_name %></td>
+
+
+                    <td style="text-align: right;">
+                        <!-- Split button -->
+
+                            <a href="/reserve/create/<%= guests[i].id %>"class="btn-res" style="color:white">Reserve</a>
+                            <a href="/guest/<%= guests[i].id %>/update" class="btn-edit" style="color:white">Edit</a>
+                            <form action="/guest/<%= guests[i].id %>/delete" method="post" class="form-del">
+                                <button class="btn-del" onclick="return confirm('are you sure to delete this Guest?');">Delete</button>
+                            </form>
+
+                    </td>
+                </tr>
+            <% } %>
+            </tbody>
+        </table>
+
+    </section>
+
+
+
+<% include ./partials/footer %>
+</body>
+
+</html>

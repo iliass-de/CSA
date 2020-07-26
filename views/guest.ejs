@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+<% include ./partials/header %>
+
+
+
+    <section class="SecMin">
+        <form action="/guest/<%=guest.id%>/update" method="post" data-toggle="validator" role="form">
+
+            <p class="sub-titel">Edit the guest</p>
+            <hr />
+
+            <% if (error){ %>
+                <p style="color: red;"><%= error %></p>
+                <hr/>
+            <% } %>
+
+            <% include ./partials/guest_input %>
+
+            <hr />
+            <input id="submitbtn" name="submitbtn" class="btn-Glob" type="submit" value="Edit" />
+        </form>
+    </section>
+
+
+
+<% include ./partials/footer %>
+</body>
+
+</html>

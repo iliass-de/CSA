@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+<% include ./partials/header %>
+
+
+
+    <section class="SecMin">
+        <form action="/room/create" method="post" data-toggle="validator" role="form">
+
+            <p class="sub-titel">Add new room</p>
+            <hr />
+
+            <% include ./partials/room_input %>
+
+            <hr />
+            <input  name="submitbtn" class="btn-Glob" type="submit" value="Add" />
+        </form>
+    </section>
+
+
+
+<% include ./partials/footer %>
+</body>
+
+</html>
