@@ -20,7 +20,7 @@ After cloning the app run the following commands In the console:
  
 ## Demo:
 
-https://hotel-managment-system.herokuapp.com/    
+http://hotel.iliass.club/   
 #### Admin user:
 * Login:  **`admin@hotel.de`** 
 * Password: **`demo`**   
