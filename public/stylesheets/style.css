@@ -7,35 +7,31 @@ Rolle: Client Seitige
 */
 
 body{
-  background-color: #E1E7E2;
+  background-image: url("/images/marten-bjork-n_IKQDCyrG0-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  filter: opacity(opacity: 30%);
+  z-index: -1;
+  background-repeat: no-repeat;
 }
 
-
-
-
-
 /*Menu */
-
 nav {
-
   background-color: red;
   position: fixed;
   top: 0;
   width: 100%;
   overflow: hidden;
   font-weight: bold;
-
-
 }
+
 .Layout {
   position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-
-
+  background-color: black;
 }
 
 .Layoutli {
@@ -57,33 +53,27 @@ nav {
   background-image: linear-gradient(to right, rgba(200,0,0,0), rgb(21, 40, 255));
   text-decoration: none;
   color:white;
-
-
-
 }
 
 
 /*  Sections */
 
 .home{
-
+  color: white;
   text-align: center;
   margin-top: 8em;
-
-
+  text-shadow: 5px 10px 8px black;
 }
 .SecGlobal {
   padding: 1em;
-
-  background-color : white;
+  border-radius: 25px;
+  background-color : rgba(255, 255, 255, 0.76);
   height : auto;
   width : 80%;
   border : 1px black solid;
   display: block;
   margin: 5em auto;
   text-align: center;
-
-
 
 }
 .SecMin {
@@ -100,7 +90,7 @@ nav {
 .SecLog {
   padding: 1em;
 
-  background-color : white;
+  background-color : rgba(255, 255, 255, 0.76);
   height : auto;
   border-radius: 25px;
   box-shadow: 10px 10px 10px grey;
@@ -179,107 +169,150 @@ nav {
 
 /* Buttons and Select Tag */
 .btn-edit{
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color:#007dc1;
+  border-radius:3px;
+  border:1px solid #124d77;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+}
 
-  padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  background: #4E9CAF;
-
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  text-decoration : none;
+.btn-edit:hover {
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color:#0061a7;
+}
+.btn-edit:active {
+  position:relative;
+  top:1px;
 }
 
 .btn-del{
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  background-color:#d0451b;
+  border-radius:3px;
+  border:1px solid #942911;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+}
 
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: #f90000;
-  text-align: center;
-  border-radius: 7px;
-  color: white;
-  font-weight: bold;
+.btn-del:hover {
+  background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  background-color:#bc3315;
+}
+.btn-del:active {
+  position:relative;
+  top:1px;
 }
 
 .btn-res{
+  box-shadow:inset 0px 1px 0px 0px #9acc85;
+  background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  background-color:#74ad5a;
+  border:1px solid #3b6e22;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+}
 
-
-  padding: 10px;
-  padding-left: 35px;
-  padding-right: 35px;
-  display: inline-block;
-
-  background: #1ed214;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  text-decoration : none;
+.btn-res:hover {
+  background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  background-color:#68a54b;
+}
+.btn-res:active {
+  position:relative;
+  top:1px;
 }
 .form-del{
   display: inline;
 
 }
 .btn-add{
-
-   width: 80px;
-   height: 20px;
-   background: rgba(2, 0, 1, 0.65);
-   padding: 10px;
-   text-align: center;
-   border-radius: 5px;
-   color: white;
-   font-weight: bold;
-   text-decoration : none;
-
-
+  box-shadow:inset 0px 1px 0px 0px #a6827e;
+  background:linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color:#000000;
+  border-radius:3px;
+  border:1px solid #050505;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding: 8px 26px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #000000;
  }
 
 .btn-Glob{
-
-  width: 30%;
-  margin: 1em;
-  height: 50px;
-  background: #3774d6;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-  text-decoration : none;
-  box-shadow: 5px 5px 5px #000000;
-
+  width: 15%;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color:#007dc1;
+  border-radius:3px;
+  border:1px solid #124d77;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size: 16px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
 }
 
-
+.btn-Glob:hover {
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color:#0061a7;
+}
+.btn-Glob:active {
+  position:relative;
+  top:1px;
+}
 
 .btn-sign-in{
-
-  margin-top: 3em;
-  background: #3774d6;
-  padding: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 5px;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: Arial, Helvetica, serif;
-
-
+  box-shadow: 5px 10px 8px black;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:15px 35px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
 }
 
-.btn-sign-in:hover{
-
-  background-color: #1f36af;
-
+.btn-sign-in:hover {
+  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color:#f6f6f6;
 }
+.btn-sign-in:active {
+  position:relative;
+  top:1px;
+}
+
 .Logout{
 
   position:fixed;
