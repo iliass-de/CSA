@@ -7,7 +7,7 @@ Simple online hotel management system for small hotels, inns, guest houses, and 
 * Nodejs 10.x
 * Sqlite
 * Ejs template engine
-* Bootstarp
+* Bootstrap
 
 ## Installation
  
