@@ -566,5 +566,12 @@ footer{
 
   text-align: Center;
   font-size: 30px;
+}
 
+.developed {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
 }
