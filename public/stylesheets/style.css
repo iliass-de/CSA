@@ -142,18 +142,6 @@ nav {
   cursor: pointer;
 }
 
-#BtnEinloggen {
-  position: relative;
-  left: 8em;
-  border: none;
-  padding: 15px 108px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-
-
 .sub-titel{
   font-size: 50px;
   text-align: center;
