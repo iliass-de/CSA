@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+<% include ./partials/header %>
+
+<center>
+
+    <section class="SecMin">
+        <form action="/guest/create" method="post" data-toggle="validator" role="form">
+
+            <p class="sub-titel">Add new guest</p>
+
+            <hr />
+
+            <% if (error){ %>
+                <p style="color: red;"><%= error %></p>
+                <hr/>
+            <% } %>
+
+            <% include ./partials/guest_input %>
+
+            <hr />
+            <input  class="btn-Glob" type="submit" value="Add" />
+        </form>
+    </section>
+
+</center>
+
+<% include ./partials/footer %>
+</body>
+
+</html>

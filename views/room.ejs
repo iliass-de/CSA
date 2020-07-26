@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+<% include ./partials/header %>
+
+
+
+    <section class="SecMin">
+
+
+        <form action="/room/<%= room.id %>/update" method="post" data-toggle="validator" role="form">
+
+            <p class="sub-titel">Edit the room</p>
+            <p>Füllen Sie sich bitte den Formular aus.</p>
+            <hr />
+
+            <% include ./partials/room_input %>
+
+            <hr />
+            <input id="submitbtn" name="submitbtn" class="btn-Glob" type="submit" value="Edit" />
+        </form>
+    </section>
+
+
+
+<% include ./partials/footer %>
+</body>
+
+</html>

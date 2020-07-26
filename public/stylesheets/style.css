@@ -1,0 +1,591 @@
+/* Css Datei
+Name: Iliass Hilmi
+Immatrikulation Nummer : 672515
+Projekt: CSA
+Rolle: Client Seitige
+
+*/
+
+body{
+  background-color: #E1E7E2;
+}
+
+
+
+
+
+/*Menu */
+
+nav {
+
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  font-weight: bold;
+
+
+}
+.Layout {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+
+}
+
+.Layoutli {
+  float:left;
+
+}
+
+.Layoutli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
+}
+
+.Layoutli a:hover:not(.active) {
+  background-image: linear-gradient(to right, rgba(200,0,0,0), rgb(21, 40, 255));
+  text-decoration: none;
+  color:white;
+
+
+
+}
+
+
+/*  Sections */
+
+.home{
+
+  text-align: center;
+  margin-top: 8em;
+
+
+}
+.SecGlobal {
+  padding: 1em;
+
+  background-color : white;
+  height : auto;
+  width : 80%;
+  border : 1px black solid;
+  display: block;
+  margin: 5em auto;
+  text-align: center;
+
+
+
+}
+.SecMin {
+  padding: 1em;
+  background-color : white;
+  height : auto;
+  width : 60%;
+  border : 1px black solid;
+  text-align: center;
+  display: block;
+  margin: 5em auto;
+}
+
+.SecLog {
+  padding: 1em;
+
+  background-color : white;
+  height : auto;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px grey;
+  width : 40%;
+  border : 0px black solid;
+  text-align: center;
+  display: block;
+  margin: 5em auto;
+}
+
+#SecGlobal_login {
+  padding: 1em;
+  position : Relative;
+  background-color : white;
+  height : auto;
+  width : 600px;
+  border : 1px black solid;
+  margin: 2em auto auto auto
+}
+
+
+#Sec{
+  position: absolute;
+  top : 130px;
+  left:180px;
+}
+
+/* Text Eingaben */
+.textbox {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.Eingabe{
+  position: relative;
+  right:100px;
+}
+
+#BtnRegistrieren{
+  position: absolute;
+  border: none;
+  left: 8em;
+  padding: 15px 90px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#BtnEinloggen {
+  position: relative;
+  left: 8em;
+  border: none;
+  padding: 15px 108px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.sub-titel{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Menu */
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+
+/* Buttons and Select Tag */
+.btn-edit{
+
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #4E9CAF;
+
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration : none;
+}
+
+.btn-del{
+
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #f90000;
+  text-align: center;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-res{
+
+
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: inline-block;
+
+  background: #1ed214;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration : none;
+}
+.form-del{
+  display: inline;
+
+}
+.btn-add{
+
+   width: 80px;
+   height: 20px;
+   background: rgba(2, 0, 1, 0.65);
+   padding: 10px;
+   text-align: center;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   text-decoration : none;
+
+
+ }
+
+.btn-Glob{
+
+  width: 30%;
+  margin: 1em;
+  height: 50px;
+  background: #3774d6;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration : none;
+  box-shadow: 5px 5px 5px #000000;
+
+}
+
+
+
+.btn-sign-in{
+
+  margin-top: 3em;
+  background: #3774d6;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Arial, Helvetica, serif;
+
+
+}
+
+.btn-sign-in:hover{
+
+  background-color: #1f36af;
+
+}
+.Logout{
+
+  position:fixed;
+  right:10px;
+}
+
+select {
+  border: 0 none;
+  color: #000000;
+  background: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2px 10px;
+  width: 378px;
+  *width: 350px;
+  *background: #58B14C;
+}
+
+.select-res{
+
+  border-radius:1px;
+  width:50%;
+  background-color: rgba(255, 255, 255, 255);
+
+
+}
+
+
+
+/* Table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #c1c1c1;
+}
+
+th, td {
+
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #e2e2e2
+}
+
+
+img-profile img {
+
+  display: block;
+  margin: 0 auto;
+
+}
+.img-adm{
+
+  height:30px;
+  width:30px;
+
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .col-s-btn {width: 1%; hight:1%; float: left;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  .Layoutli {
+    float:none;
+  }
+  .Logout{
+
+    position:static;
+
+  }
+
+  .SecGlobal{
+
+    display: block;
+    margin: 1em auto;
+    margin-top: 18em;
+
+
+  }
+  .SecLog{
+
+    width:80%;
+    margin-top: 8em;
+
+  }
+  .SecMin{
+
+    margin-left: 1em;
+    display: block;
+    margin: 1em auto;
+    margin-top: 18em;
+    width: 80%;
+
+  }
+  .btn-edit{
+    padding: 1px;
+    width:10%;
+
+  }
+  .btn-del{
+
+    padding: 1px;
+
+  }
+  .btn-res{
+
+    padding: 1px;
+
+  }
+
+  .btn-Glob{
+
+    margin: 0.1em;
+
+
+
+    padding: 5px;
+
+
+  }
+  .btn-add{
+
+    padding-bottom: 0.5px;
+    width:30%;
+
+
+
+  }
+  table{ width: 100%;}
+  th, td {
+    padding: 4px;
+  }
+  th{
+
+    font-size: 12px;
+
+  }
+
+  .img-adm {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-container div {
+    display: flow;
+
+
+  }
+  .footer-container table {
+    margin-left: 2em;
+
+  }
+
+}
+
+
+
+
+/* For small Mobiles: */
+@media only screen and (max-width: 400px) {
+
+  table{ width: 100%;}
+  th, td {
+    padding: 4px;
+    font-size: 9px;
+  }
+  th{
+
+    font-size: 9px;
+
+  }
+
+  .img-adm {
+    width: 20px;
+    height: 20px;
+  }
+
+  .Imgfooter{
+
+
+    border-radius:100%;
+  }
+
+  .btn-del{
+
+    padding: 1px;
+    font-size: 11px;
+  }
+  .btn-edit{
+    padding: 3px;
+
+  }
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+/* footer */
+
+footer{
+
+  background: rgba(0, 0, 0, 0.35);
+  color:white;
+  margin-top: 10em;
+
+}
+.CopyR{
+  text-align: center;
+}
+
+.footer-container {
+
+
+  font-size:0;
+  text-align: center;
+}
+
+.footer-container div {
+
+  margin: 1em;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 20px;
+  color:black;
+
+}
+.footer-container img {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+
+}
+.footer-container div:hover img {
+  opacity: 0.6;
+
+
+}
+
+.footer-container table {
+
+  width: 80%;
+  border:0;
+  background-color: #c1c1c1;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px #000000;
+
+
+}
+
+.footer-container  td {
+  text-align: center;
+  font-size: 20px;
+
+}
+
+
+
+.txt-bold{
+
+  text-align: Center;
+  font-size: 30px;
+
+}

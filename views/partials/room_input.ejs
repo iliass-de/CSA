@@ -1,0 +1,18 @@
+<% if (error){ %>
+    <p style="color: red;"><%= error %></p>
+    <hr/>
+<% } %>
+
+<label for="Name"><b>Room number</b></label><br>
+<input type="text" class="textbox" id="roomNumber" placeholder="Room number" name="roomNumber" value="<%= room.room_number %>" required autocomplete="off" /><br>
+<label for="Vorname"><b>Room type</b></label><br>
+
+<select class="textbox" name="roomType" id="roomType" value="Select room Type">
+    <option></option>
+    <% for (var i=0;i<room_types.length;i++){ %>
+        <% if(room_types[i].id === room.room_type_id) { %>
+        <option value="<%=room_types[i].id%>" selected><%=room_types[i].room_type%></option>
+        <% } else { %>
+        <option value="<%=room_types[i].id%>"><%=room_types[i].room_type%></option>
+    <% }} %>
+</select>

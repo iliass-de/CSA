@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./partials/head %>
+</head>
+<body>
+<% include ./partials/header.ejs %>
+
+
+
+
+    <section  class="SecGlobal">
+        <p class="sub-titel">All reserved rooms</p>
+        <!-- Table -->
+        <table  >
+            <thead>
+            <tr>
+                <th>Room type</th>
+                <th>Room number</th>
+                <th>Kunde</th>
+                <th>Check out</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody >
+            <% for (var i=0; i<rooms.length; i++){ %>
+                <tr>
+
+                    <td><%= rooms[i].room_type %></td>
+                    <td><%= rooms[i].room_number %></td>
+                    <td><%= rooms[i].last_name %>, <%= rooms[i].first_name %></td>
+                    <td><%= rooms[i].check_out %></td>
+
+                    <td style="text-align: right;">
+                        <!-- Split button-->
+
+                        <a href="/reserve/<%= rooms[i].guest_id %>/update" class="btn-edit "  style="color:white">Edit</a>
+                        <form action="/reserve/<%= rooms[i].guest_id %>/delete" method="post" class="form-del ">
+                            <button class ="btn-del" style="color:white"   onclick="return confirm('are you sure to delete this Reservation?');"  >Delete</button>
+                        </form>
+
+
+                    </td>
+                </tr>
+            <% } %>
+            </tbody>
+        </table>
+    </section>
+
+<% include ./partials/footer %>
+</body>
+</html>
